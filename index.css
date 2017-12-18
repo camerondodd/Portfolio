@@ -88,19 +88,19 @@ h2,h3{
   background:black;
   color:white;
   text-align: center;
-  padding-top:100px;
+  padding-top:40px;
 }
 
 .infoDate{
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .infoRetro{
-  padding-top:50px;
+  padding-top:10px;
 }
 
 .infoAnalysis{
-  padding-top:100px;
+  padding-top:70px;
 }
 
 .clear{
