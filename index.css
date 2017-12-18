@@ -67,7 +67,7 @@ h2,h3{
   height:500px;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-size:cover;
+  background-size:auto;
   box-sizing:border-box;
 }
 
