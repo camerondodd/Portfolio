@@ -50,20 +50,22 @@ h2,h3{
 
 .date{
   background-image:url("https://github.com/camerondodd/capstone1/raw/master/screenshot_openingpage.png");
+  background-position:top left;
 }
 
 .retro{
   background-image:url('https://github.com/camerondodd/My8BitSelf/raw/master/public/screenshots/homeSS.jpg');
+  background-position:top right;
 }
 
 .analysis{
   background-image:url('https://github.com/camerondodd/capstone3/raw/master/public/screenshots/analysis-finder.jpg');
+  background-position:top left;
 }
 
 .parallax{
   height:500px;
   background-attachment:fixed;
-  background-position:center;
   background-repeat:no-repeat;
   background-size:cover;
   box-sizing:border-box;
@@ -88,19 +90,19 @@ h2,h3{
   background:black;
   color:white;
   text-align: center;
-  padding-top:40px;
+  padding-top:5%;
 }
 
 .infoDate{
-  padding-top: 80px;
+  padding-top: 10%;
 }
 
 .infoRetro{
-  padding-top:10px;
+  padding-top:1%;
 }
 
 .infoAnalysis{
-  padding-top:70px;
+  padding-top:8%;
 }
 
 .clear{
