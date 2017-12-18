@@ -126,7 +126,7 @@ h2,h3{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
   border-style: groove;
   border:white solid 2px;
-  border-radius: 15%;
+  border-radius: 5px 5px 5px 5px;
   box-shadow: 1px 1px;
   color:black;
   font-weight: bold;
