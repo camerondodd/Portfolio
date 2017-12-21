@@ -6,6 +6,7 @@ body, html{
 }
 
 a,p{
+  line-height: 21px;
   font-size: 17px;
   font-family: 'PT Serif', serif;
 }
@@ -49,48 +50,53 @@ h2,h3{
 }
 
 .date{
-  background-image:url("https://github.com/camerondodd/capstone1/raw/master/screenshot_openingpage.png");
-  background-position:top left;
+  background-image:url("https://github.com/camerondodd/capstone1/raw/master/screenshot_openingpage.jpg");
+  background-position:center;
 }
 
 .retro{
   background-image:url('https://github.com/camerondodd/My8BitSelf/raw/master/public/screenshots/homeSS.jpg');
-  background-position:top right;
+  background-position:center;
 }
 
 .analysis{
   background-image:url('https://github.com/camerondodd/capstone3/raw/master/public/screenshots/analysis-finder.jpg');
-  background-position:top left;
+  background-position:center;
 }
 
 .parallax{
-  height:500px;
+  height:700px;
   background-attachment:fixed;
   background-repeat:no-repeat;
-  background-size:auto;
+  background-size:cover;
   box-sizing:border-box;
 }
 
 .info{
-  padding-right:10px;
-  padding-left:10px;
+  padding-right:15px;
+  padding-left:15px;
   box-sizing:border-box;
-  height:500px;
+  height:700px;
   background:black;
   color:white;
   text-align: center;
   vertical-align: middle;
 }
-
+.spacer{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding-left:10px;
+  padding-right:10px;
+}
 .infoMe{
   padding-bottom: 0px;
-  padding-right: 40px;
+  padding-right:15px;
+  padding-left:15px;
   box-sizing:border-box;
   height:500px;
   background:black;
   color:white;
   text-align: center;
-  padding-top:5%;
 }
 
 .infoDate{
@@ -110,11 +116,13 @@ h2,h3{
 }
 
 .right{
+  box-sizing: border-box;
   float:right;
   width: 50%
 }
 
 .left{
+  box-sizing: border-box;
   float:left;
   width:50%;
 }
@@ -142,11 +150,11 @@ h2,h3{
 
 .btn:hover{
   background: rgb(124,188,10); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(124,188,10,1) 0%, rgba(128,194,23,1) 49%, rgba(161,213,79,1) 50%, rgba(157,213,58,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(124,188,10,1) 0%,rgba(128,194,23,1) 49%,rgba(161,213,79,1) 50%,rgba(157,213,58,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(124,188,10,1) 0%,rgba(128,194,23,1) 49%,rgba(161,213,79,1) 50%,rgba(157,213,58,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cbc0a', endColorstr='#9dd53a',GradientType=0 ); /* IE6-9 */
-	color:white;
+  background: -moz-linear-gradient(top, rgba(124,188,10,1) 0%, rgba(128,194,23,1) 49%, rgba(161,213,79,1) 50%, rgba(157,213,58,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(124,188,10,1) 0%,rgba(128,194,23,1) 49%,rgba(161,213,79,1) 50%,rgba(157,213,58,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(124,188,10,1) 0%,rgba(128,194,23,1) 49%,rgba(161,213,79,1) 50%,rgba(157,213,58,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cbc0a', endColorstr='#9dd53a',GradientType=0 ); /* IE6-9 */
+  color:white;
 }
 
 .contact{
