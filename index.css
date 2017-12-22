@@ -46,7 +46,7 @@ h2,h3{
 .me{
   box-sizing: border-box;
   background: black;
-  border:10px solid green;
+  border:10px solid ivory;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -80,7 +80,7 @@ h2,h3{
   box-sizing:border-box;
   height:700px;
   background:black;
-  color:green;
+  color:ivory;
   text-align: center;
   vertical-align: middle;
 }
@@ -97,7 +97,7 @@ h2,h3{
   box-sizing:border-box;
   height:500px;
   background:black;
-  color:green;
+  color:ivory;
   text-align: center;
 }
 
