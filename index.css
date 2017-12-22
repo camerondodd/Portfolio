@@ -46,7 +46,7 @@ h2,h3{
 .me{
   box-sizing: border-box;
   background: black;
-  border:10px solid white;
+  border:10px solid green;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -68,7 +68,7 @@ h2,h3{
 
 .parallax{
   height:700px;
-  background-attachment:fixed;
+ /* background-attachment:fixed;*/
   background-repeat:no-repeat;
   background-size:cover;
   box-sizing:border-box;
@@ -80,7 +80,7 @@ h2,h3{
   box-sizing:border-box;
   height:700px;
   background:black;
-  color:white;
+  color:green;
   text-align: center;
   vertical-align: middle;
 }
@@ -97,7 +97,7 @@ h2,h3{
   box-sizing:border-box;
   height:500px;
   background:black;
-  color:white;
+  color:green;
   text-align: center;
 }
 
