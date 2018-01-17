@@ -47,8 +47,7 @@ h2,h3{
   box-sizing: border-box;
   background: #1a1a1a;
   /*border:10px ridge rgb(140, 50, 40);*/
-  border-style: groove;
-  border:ivory solid 10px;
+  border:ivory groove 10px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
