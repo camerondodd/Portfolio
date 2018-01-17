@@ -46,7 +46,7 @@ h2,h3{
 .me{
   box-sizing: border-box;
   background: #1a1a1a;
-  border:10px solid ivory;
+  border:10px solid rgb(140, 50, 40);
   padding-top: 40px;
   padding-bottom: 40px;
 }
