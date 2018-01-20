@@ -22,13 +22,33 @@ header, footer{
   padding-bottom: 20px;
 }
 
+.logo{
+  height:75px;
+  width:75px;
+  display:inline-block;
+}
+
+.one{
+  float:left;
+  margin-left:15px;
+}
+
+.two{
+  float:right;
+  margin-right: 15px;
+}
+
 footer{
   padding-top:10px;
   padding-bottom: 25px;
 }
 
 h1{
-  margin:0;
+  display:inline-block;
+  margin-left:0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 15px;
   font-family: 'Rufina', serif;
 }
 
@@ -168,6 +188,11 @@ h2,h3{
   color:white;
 }
 
+@media only screen and (max-width: 680px){
+  .logo{
+    display:none;
+  }
+}
 @media only screen and (max-width:400px){
   .left, .right{
     float:right;
