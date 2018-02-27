@@ -12,19 +12,50 @@ a,p{
 }
 
 header, footer{
-  background: rgb(180,227,145); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+  background-color: rgb(59,87,37);
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(59,87,37);
+}
+
+.title h2{
+  margin:0;
+}
+
+.chartContainer{
+  background: #1a1a1a;
+  margin:0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.chartContainer p{
+  color:ivory;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+#chart {
+  text-align: left;
+  box-shadow: 1px 1px;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: ivory;
 }
 
 .logo{
-  height:75px;
-  width:75px;
+  height:40px;
+  width:40px;
   display:inline-block;
 }
 
@@ -40,7 +71,10 @@ header, footer{
 
 footer{
   padding-top:10px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
+}
+footer h3{
+  margin:0;
 }
 
 h1{
@@ -48,7 +82,7 @@ h1{
   margin-left:0;
   margin-right: 0;
   margin-bottom: 0;
-  margin-top: 15px;
+  margin-top: 0;
   font-family: 'Rufina', serif;
 }
 
@@ -57,18 +91,21 @@ h2,h3{
 }
 
 .me img{
-  height:400px;
+  height:300px;
+  width:300px;
   margin-left: auto;
   margin-right: auto;
   display:block;
+  object-fit: cover;
 }
 
 .me{
   box-sizing: border-box;
+  height:500px;
   background: #1a1a1a;
-  border:ivory groove 10px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+ /* border:ivory solid 2px;*/
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .date{
@@ -151,12 +188,8 @@ h2,h3{
 
 .btn{
   text-decoration:none;
-  background: rgb(157,213,58); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
-  border:white groove 4px;
+  background-color: rgb(59,87,37);
+  /*border:white groove 4px;*/
   box-shadow: 1px 1px;
   color:black;
   font-weight: bold;
@@ -169,12 +202,7 @@ h2,h3{
 }
 
 .btn:hover{
-  background: rgb(124,188,10); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(124,188,10,1) 0%, rgba(128,194,23,1) 49%, rgba(161,213,79,1) 50%, rgba(157,213,58,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(124,188,10,1) 0%,rgba(128,194,23,1) 49%,rgba(161,213,79,1) 50%,rgba(157,213,58,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(124,188,10,1) 0%,rgba(128,194,23,1) 49%,rgba(161,213,79,1) 50%,rgba(157,213,58,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cbc0a', endColorstr='#9dd53a',GradientType=0 ); /* IE6-9 */
-  color:white;
+  background-color: ivory;
 }
 
 .contact{
@@ -196,15 +224,19 @@ h2,h3{
     margin-top: 5px;
   }
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:800px){
   .left, .right{
     float:right;
     width:100%;
   }
-  
+  .me{
+    height:400px;
+    padding-bottom: 0;
+  }
   .infoMe{
     padding-left:20px;
     padding-right:20px;
     padding-top:0px;
+
   }
 }

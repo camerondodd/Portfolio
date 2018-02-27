@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width">
     <title>Cameron's Portfolio</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+  </script>
+  <script type="text/javascript" src="index.js"></script> 
+    
     <link rel="shortcut icon" href='favicon.ico' type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina" rel="stylesheet">  
   </head>
@@ -12,7 +17,7 @@
     <header>
       <img class="logo one" src="logo.png" alt="gecko" />
 <!--       <div class="clear"></div> -->
-      <h1>Portfolio of a Quirky Developer</h1>
+      <h1>Portfolio of Cameron Dodd</h1>
       <img class="logo two" src="logo.png" alt="gecko" />
       <div class="clear"></div>
     </header>
@@ -23,22 +28,34 @@
       <div class="right infoMe">
         <div class="spacer">
         <h2>About Me</h2>
-        <h3>Cameron Dodd</h3>
+        <p>Full Stack Web Developer with a background in biological research and statistics.</p>
         <p>After earning my M.S. in Bioinformatics, I worked in pharmaceuticals for a while before returning to my love of code.  My need for new challenges and my passion for puzzles made web development my dream job. </p>
-        <p>When I am not coding, you can find me hiking or ballroom dancing with my wife.  Unless I am carving, woodburning, cooking, sewing, or lost in a good book with my gecko (Glaurung Minimus!).</p>
-        <p>Below you will find a few of my recent projects!</p>
+        <!-- <p>When I am not coding, you can find me hiking or ballroom dancing with my wife.  Unless I am carving, woodburning, cooking, or lost in a good book with my gecko (Glaurung Minimus!).</p>
+        <p>Below you will find a few of my recent projects!</p> -->
         </div>
       </div>
       <div class="clear"></div>
     </section>
+    <section> 
+      <div class="title">
+        <h2>Skills</h2>
+      </div>
+      <div class="chartContainer">
+        <div id="chart"></div> 
+        <p>I am also comfortable with: Angular, InkScape, Photoshop, Python, MongoDB, Firebase, Continuous Intigration, Git/Github, MATLAB, SPSS, and more!</p>
+      </div>
+    </section>
     <section>
+      <div class="title">
+        <h2>Projects</h2>
+      </div>
       <div class="parallax right date">
       </div>
       <div class="info left infoDate">
         <div class="spacer">
         <h2>DateNight!</h2>
         <p>A straightforward application using API calls to quickly and easily plan a date at the last minute.  Once the user decides to go out or stay in, the app offers food and entertainment options targeted to their preference</p>
-        <p>Used: HTML, CSS, JS, jQuery</p>
+        <p>Skills: HTML, CSS, JS, jQuery</p>
         <a class="btn" href="https://github.com/camerondodd/DateNight">Github</a>
         <a class="btn" href="https://camerondodd.github.io/DateNight/">Live</a>
         </div>
@@ -55,7 +72,7 @@
         <p>Feel free to use the demo account:</p>
         <p>account: my8bitselfdemo@gmail.com</p>
         <p>password: demopassword</p>
-        <p>Used: HTML, CSS, JS, NodeJS, Express, MongoDB, Mocha, Chai, PassportJS</p>
+        <p>Skills: HTML, CSS, JS, NodeJS, Express, MongoDB, Mocha, Chai, PassportJS</p>
         <a class="btn" href="https://github.com/camerondodd/My8BitSelf">Github</a>
         <a class="btn" href="http://hidden-ridge-33061.herokuapp.com/">Live</a>
         </div>
@@ -69,7 +86,7 @@
         <div class="spacer">
         <h2>AnalysisPrep</h2>
         <p>This application is designed to streamline all of the work that needs to be done before an analysis can be run.  It saves hours of work by walking the user through the process of selecting the correct analysis, checking assumptions, calculating required sample size, and offering basic definitions.</p>
-        <p>Used: HTML, CSS, JS, React, NodeJS, Express</p>
+        <p>Skills: HTML, CSS, JS, React, NodeJS, Express</p>
         <a class="btn" href="https://github.com/camerondodd/capstone3">Github</a>
         <a class="btn" href="https://angry-wiles-104eb4.netlify.com/">Live</a>
         </div>
@@ -78,7 +95,7 @@
     </section>
     <footer>
         <h3>Feel free to contact me at:</h3>
-        <a class="contact" href="mailto:cameron.dodd@mavs.uta.edu">Cameron.Dodd@mavs.uta.edu</a>
+        <a class="contact" href="mailto:cameron.dodd@gmail.com">Cameron.Dodd@gmail.com</a>
     </footer>
   </body>
 </html>
