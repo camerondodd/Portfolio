@@ -12,7 +12,7 @@ a,p{
 }
 
 header, footer{
-  background-color: rgb(59,87,37);
+  background-color: rgb(59,140,37);
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -22,7 +22,7 @@ header, footer{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(59,87,37);
+  background-color: rgb(59,140,37);
 }
 
 .title h2{
@@ -188,7 +188,7 @@ h2,h3{
 
 .btn{
   text-decoration:none;
-  background-color: rgb(59,87,37);
+  background-color: rgb(59,140,37);
   /*border:white groove 4px;*/
   box-shadow: 1px 1px;
   color:black;
