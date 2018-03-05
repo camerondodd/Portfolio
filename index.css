@@ -57,7 +57,15 @@ header, footer{
   height:40px;
   width:40px;
   display:inline-block;
+
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
 }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .one{
   float:left;
