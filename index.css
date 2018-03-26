@@ -292,11 +292,11 @@ nav a:hover{
   50%{border-color:transparent;}
 }
 .introContainer{
-  width:650px;
+  width:800px;
   margin-top: 200px;
 }
 .intro{
-  font-size: 30px;
+  font-size: 40px;
   padding:0;
   overflow: hidden;
   margin:0 auto;
@@ -691,7 +691,7 @@ nav a:hover{
   }
   .introContainer{
   width:100%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .intro{
   font-size: 30px;
@@ -715,6 +715,20 @@ nav a:hover{
 }
 }
 @media only screen and (max-width:800px){
+/*  .introContainer{
+  width:650px;
+  margin-top: 200px;
+}
+.intro{
+  font-size: 30px;
+  padding:0;
+  overflow: hidden;
+  margin:0 auto;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  animation:typewriter 3s steps(30) 1s 1 normal both,
+  blink .5s step-end infinite alternate;
+}*/
   .left, .right{
     float:right;
     width:100%;
