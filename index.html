@@ -7,39 +7,64 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
-  </script>
   <script type="text/javascript" src="index.js"></script> 
-    
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin" rel="stylesheet">
     <link rel="shortcut icon" href='favicon.ico' type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Rufina" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img class="logo one" src="logo.png" alt="gecko" />
-<!--       <div class="clear"></div> -->
-      <h1>Portfolio of Cameron Dodd</h1>
-      <img class="logo two" src="logo.png" alt="gecko" />
-      <div class="clear"></div>
-    </header>
     <section>
-      <div class="left me">
-        <img src="https://github.com/camerondodd/Portfolio/raw/master/screenshots/me.jpg" alt="cameron" />
-      </div>
-      <div class="right infoMe">
-        <div class="spacer">
-        <h2>About Me</h2>
-        <p>Full Stack Web Developer with a background in biological research and statistics.</p>
-        <p>For my M.S. in Bioinformatics, I learned python, MATLAB, and SPSS for statistics, modeling, and data visualization. Then I worked in pharmaceuticals, focusing on data integrity/management before taking a Full Stack Web Development course where I was trained to industry standards in HTML, CSS, React, and a number of other languages.</p> 
-        <p>My need for new challenges and my passion for puzzles made web development my dream job. </p>
+      <div class="opener">
+        <div class="layerTwo">
+          <img src="geckoLogoGreenBig.png">
+          <div class="logoContainer">
+            <h3>Cameron Dodd</h3>
+          </br>
+            <h4>Web Developer</h4>
+          </div>
+          <nav>
+            <a href="#aboutMe">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div class="clear"></div>
+          <div class="introContainer">
+            <h1 class="intro">Howdy! I'm Cameron. Let's make a website!</h1>
+          </div> 
+          <div class="cta">
+            <a class="btn" href="">Email me</a>
+          </div> 
+          <div class="arrow">
+            <p><i></i></p>
+          </div>
         </div>
       </div>
-      <div class="clear"></div>
     </section>
-    <section> 
-      <div class="title">
-        <h2>Skills</h2>
+    <section id="aboutMe">
+      <div class="right me">
+        <img src="https://github.com/camerondodd/Portfolio/raw/master/screenshots/me.jpg" alt="cameron" />
       </div>
+      <div class="left infoMe">
+        <div class="spacer">
+        <h2>About Me</h2>
+        <p>Programmer with five years coding experience, the last year specializing in Web Development.</p>
+        <p>For my M.S. in Bioinformatics, I learned python, MATLAB, and SPSS for statistics, modeling, and data visualization. Then I worked in pharmaceuticals, focusing on data integrity/management before taking a Full Stack Web Development course where I was trained to industry standards in HTML, CSS, React, and a number of other languages.</p> 
+        <p>When I am not coding you can find me hiking with my wife, reading to my gecko, or carving something interesting.</p>
+      </div>
+      </div>
+      <div class="clear"></div>
+      <div class="arrow2">
+        <p><i class="i2"></i></p>
+      </div>
+    </section>
+    <section id="skills"> 
+
       <div class="chartContainer">
+        <h2>Skills</h2>
         <div id="otherChart">
           <h3>Proficiencies </h3>
           <h3>(1 to 5)</h3>
@@ -54,61 +79,112 @@
             <li>Skill Learning: 5</li>
           </ul>
         </div>
-        <div id="chart"></div> 
-        <p>I am also comfortable with: Angular, InkScape, Photoshop, Python, MongoDB, Firebase, Continuous Intigration, Git/Github, MATLAB, SPSS, and more!</p>
+        <div id="chart"></div>
+        <div class="otherSkills">
+          <h2 class="skillSet" id="skillSet">I also know...</h2>
+          <h2 class="skill"> Angular</h2>
+          <h2 class="skill"> InkScape</h2>
+          <h2 class="skill"> Photoshop</h2>
+          <h2 class="skill"> Python</h2>
+          <h2 class="skill"> MongoDB</h2>
+          <h2 class="skill"> Firebase</h2>
+          <h2 class="skill"> CI</h2>
+          <h2 class="skill"> Git/Github</h2>
+          <h2 class="skill"> MATLAB</h2>
+          <h2 class="skill"> SPSS</h2>
+        </div>
+      </div>
+      <div class="arrow3">
+        <p><i class="i3"></i></p>
       </div>
     </section>
-    <section>
-      <div class="title">
-        <h2>Projects</h2>
+    <section id="projects">
+      <div >
+        <h2 class="projectsTitle">Projects</h2>
       </div>
-      <div class="parallax right date">
-      </div>
-      <div class="info left infoDate">
-        <div class="spacer">
-        <h2>DateNight!</h2>
-        <p>A straightforward application using API calls to quickly and easily plan a date at the last minute.  Once the user decides to go out or stay in, the app offers food and entertainment options targeted to their preference</p>
-        <p>Skills: HTML, CSS, JS, jQuery</p>
-        <a class="btn" href="https://github.com/camerondodd/DateNight">Github</a>
-        <a class="btn" href="https://camerondodd.github.io/DateNight/">Live</a>
+      <div class="projectHolder">
+        <div class="summary cycle1">
+          <h2 class="dateNightTitle">
+            DateNight!
+          </h2>
+          <p>A straightforward application using API calls to quickly and easily plan a date at the last minute.  Once the user decides to go out or stay in, the app offers food and entertainment options targeted to their preference</p>
+          <h3>Skills</h3>
+          <p>HTML, CSS, JS, jQuery</p>
+          </div>
+        <div class="dateNight">
+          <div class="layer">
+          <!-- <h1>DateNight!</h1> -->
+          </div>
+        </div>
+        <div class="linkHolder cycle1">
+          <h2>Links</h2>
+          <a class="btn" href="https://github.com/camerondodd/DateNight">Github</a>
+          <a class="btn" href="https://camerondodd.github.io/DateNight/">Live</a>
         </div>
       </div>
       <div class="clear"></div>
     </section>
     <section>
-      <div class="parallax left retro">
-      </div>
-      <div class="info right infoRetro">
-        <div class="spacer">
-        <h2>My 8-bit Self</h2>
-        <p>Ever picture your life as a retro RPG?  Ever wonder if you should get experience for what you are doing right now?  My 8-Bit Self is for you!  This fun habit tracker allows you to level as an 8-bit version of yourself.</p>
-        <p>Feel free to use the demo account:</p>
-        <p>account: my8bitselfdemo@gmail.com</p>
-        <p>password: demopassword</p>
-        <p>Skills: HTML, CSS, JS, NodeJS, Express, MongoDB, Mocha, Chai, PassportJS</p>
-        <a class="btn" href="https://github.com/camerondodd/My8BitSelf">Github</a>
-        <a class="btn" href="http://hidden-ridge-33061.herokuapp.com/">Live</a>
+      <div class="projectHolder">
+        <div class="summary cycle2">
+          <h2 class="eightBitTitle">My 8-Bit Self</h2>
+          <p>Ever picture your life as a retro RPG?  Ever wonder if you should get experience for what you are doing right now?  My 8-Bit Self is for you!  This fun habit tracker allows you to level as an 8-bit version of yourself.</p>
+          <h3>Skills</h3>
+          <p>HTML, CSS, JS, NodeJS, Express, MongoDB, Mocha, Chai, PassportJS</p>
+        </div>
+        <div class="eightBit">
+          <div class="layer">
+            <!-- <h1>My 8-Bit Self</h1> -->
+          </div>
+        </div>
+        <div class="linkHolder cycle2">
+          <h2>Links</h2>
+          <a class="btn" href="https://github.com/camerondodd/My8BitSelf">Github</a>
+            <a class="btn" href="http://www.my8bitself.website/">Live</a>
         </div>
       </div>
       <div class="clear"></div>
     </section>
     <section>
-      <div class="parallax right analysis">
-      </div>
-      <div class="info left infoAnalysis">
-        <div class="spacer">
-        <h2>AnalysisPrep</h2>
-        <p>This application is designed to streamline all of the work that needs to be done before an analysis can be run.  It saves hours of work by walking the user through the process of selecting the correct analysis, checking assumptions, calculating required sample size, and offering basic definitions.</p>
-        <p>Skills: HTML, CSS, JS, React, NodeJS, Express</p>
-        <a class="btn" href="https://github.com/camerondodd/capstone3">Github</a>
-        <a class="btn" href="https://angry-wiles-104eb4.netlify.com/">Live</a>
+      <div class="projectHolder">
+        <div class="summary cycle3">
+          <h2 class="analysisPrepTitle">AnaylsisPrep</h2>
+          <p>This application is designed to streamline all of the work that needs to be done before an analysis can be run.  It saves hours of work by walking the user through the process of selecting the correct analysis, checking assumptions, calculating required sample size, and offering basic definitions.</p>
+          <h3>Skills</h3>
+          <p>HTML, CSS, JS, React, NodeJS, Express</p>
+        </div>
+        <div class="analysisPrep">
+          <div class="layer">
+            <!-- <h1>AnalysisPrep</h1> -->
+          </div>
+        </div>
+        <div class="linkHolder cycle3">
+          <h2>Links</h2>
+          <a class="btn" href="https://github.com/camerondodd/capstone3">Github</a>
+          <a class="btn" href="http://www.analysisprep.website">Live</a>
         </div>
       </div>
       <div class="clear"></div>
+      <div class="holder"><p>holder</p></div>
+      <div class="arrow4">
+        <p><i class="i4"></i></p>
+      </div>
     </section>
-    <footer>
-        <h3>Feel free to contact me at:</h3>
-        <a class="contact" href="mailto:cameron.dodd@gmail.com">Cameron.Dodd@gmail.com</a>
-    </footer>
+    <section id="contact">
+      <div class="contactContainer">
+        <h2>Contact</h2>
+        <h3>
+          Want a website?  Want to just chat about code?  Drop me a line.
+        </h3>
+          <a class="contact" href="mailto:cameron.dodd@gmail.com">Cameron.Dodd@gmail.com</a>
+          <a href="https://github.com/camerondodd" class="social">
+            <img src="gitHub.png">
+          </a>
+          <a href="https://www.linkedin.com/in/cameron-dodd-236b64b8/" class="social">
+            <img src="https://image.flaticon.com/icons/svg/34/34227.svg">
+          </a>
+          <img src="geckoLogoGreenBig.png" class="bigLogo">
+        </div>
+    </section>
   </body>
 </html>
