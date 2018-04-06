@@ -30,8 +30,14 @@ h2,h3{
 .clear{
   clear:both;
 }
-
+.btnHolder{
+  width:100%;
+  text-align: center;
+}
 .btn{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   text-decoration:none;
   background: limegreen;
   box-shadow: 1px 1px;
@@ -219,7 +225,7 @@ h2,h3{
 }
 
 .layerTwo{
-  background-color: rgba(248, 247, 216, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -366,7 +372,7 @@ nav a:hover{
   box-sizing: border-box;
 }
 .layer{
-  background-color: rgba(248, 247, 216, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
     top: 0;
     left: 0;
