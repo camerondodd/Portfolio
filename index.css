@@ -349,14 +349,14 @@ nav a:hover{
 }
 .eightBit{
   box-sizing: border-box;
-  background: url('https://github.com/camerondodd/My8BitSelf/raw/master/public/screenshots/homeSS.jpg') no-repeat fixed center;
+  background: url('https://github.com/camerondodd/My8BitSelf/raw/master/public/screenshots/homeSS.jpg') no-repeat scroll top;
   position:relative;
   height:500px;
   margin-right: auto;
   margin-left: auto;
 }
 .analysisPrep{
-  background: url('https://github.com/camerondodd/capstone3/raw/master/public/screenshots/analysis-finder.jpg')no-repeat fixed center;
+  background: url('https://github.com/camerondodd/capstone3/raw/master/public/screenshots/analysis-finder.jpg')no-repeat scroll top;
   position:relative;
   height:500px;
   margin-right: auto;
@@ -364,7 +364,7 @@ nav a:hover{
   box-sizing: border-box;
 }
 .dateNight{
-  background: url("https://github.com/camerondodd/capstone1/raw/master/screenshot_openingpage.jpg") no-repeat fixed center;
+  background: url("https://github.com/camerondodd/capstone1/raw/master/screenshot_openingpage.jpg") no-repeat scroll top;
   position:relative;
   height:500px;
   margin-right: auto;

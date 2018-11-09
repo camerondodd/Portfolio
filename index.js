@@ -2,16 +2,16 @@ $(function(){
   $('#chart').radarChart({
     size: [500, 400],
     step: 1,
-    title: "Web Development",
+    title: "Services",
     values: {
-      "JavaScript": 4,
-      "jQuery": 4,
-      "Node.js": 3.5,
-      "HTML": 5,
-      "CSS": 4,
-      "React": 4.5,
-      "Skill Learning": 5,
-      "Databases": 4
+      "Back-End": 4,
+      "Curriculum": 5,
+      "Front-End": 4.5,
+      "Content": 5,
+      "Design": 3,
+      "Data Analysis": 4.5,
+      "Visualizations": 4,
+      "Databases": 3.5
     },
     showAxisLabels: true
   });
